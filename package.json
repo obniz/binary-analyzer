@@ -1,0 +1,33 @@
+{
+  "name": "binary-analyzer",
+  "version": "0.1.0",
+  "description": "binary validate and parse library",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx --test src/**/*.spec.ts"
+  },
+  "keywords": [
+    "binary",
+    "BLE",
+    "parser"
+  ],
+  "repository": "obniz/binary-analyzer",
+  "author": "obniz Inc. <supportteam@obniz.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "dependencies": {
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.1"
+  },
+  "volta": {
+    "node": "21.6.2"
+  }
+}
